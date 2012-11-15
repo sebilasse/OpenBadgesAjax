@@ -1,4 +1,4 @@
-# Badge-It AJAX
+# OpenBadgesAjax
 
 Simple testcase for Mozilla Persona and Open Badges. Uses AJAX and php to award and issue badges into Mozilla Open Badges Infrastructure.
 
