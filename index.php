@@ -51,7 +51,7 @@ if(!isset($_GET['nosession'])) $_SESSION[RANDOM_ID] = RANDOM;
 		</div>
         <div class="hidden">
         	<img itemprop="image" src="./digital-badges/images/standard.png" />
-            <p itemprop="description">a testcase for Mozilla Persona (BrowserID) and Open Badges</p>
+            <p itemprop="description">A testcase for Mozilla Persona (BrowserID) and Open Badges</p>
         </div>
         <script type="text/javascript">var _csrf = { _a:'<?php echo RANDOM; ?>', _b:'<?php echo openssl_digest($_SERVER['REMOTE_ADDR'], 'sha512'); ?>' };</script>
         <script type="text/javascript" src="<?php print $persona_api; ?>"></script>
