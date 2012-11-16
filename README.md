@@ -7,6 +7,9 @@ Simple testcase for Mozilla Persona and Open Badges. Uses AJAX and php to award 
 
 This is a very simple implementation of logging in with BrowserID as well as awarding and issuing badges. It uses Mozilla's issuer api javascript. Because it writes records to a text file, it really is not meant to be used for issuing many badges on a heavy production site. But because it is so simple, it requires very little set-up. Almost a plug and play. This is a starting point and can easily be modified and scaled. Simply have fun with badges!!!
 
+## Demo
+[online](http://sebastianlasse.de/dev/OpenBadgesAjax/)
+
 ## References
 
 https://github.com/mozilla/openbadges/wiki/
