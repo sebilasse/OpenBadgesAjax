@@ -10,7 +10,7 @@ This is a very simple implementation of logging in with BrowserID as well as awa
 This repo was inspired by [badge-it-gadget-lite](https://github.com/Codery/badge-it-gadget-lite/issues)
 
 ## Demo
-[online demo](http://sebastianlasse.de/dev/OpenBadgesAjax/)
+[online demo](https://redaktorcms.com/dev/OpenBadgesAjax/index.php)
 
 ## References
 
