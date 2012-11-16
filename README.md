@@ -1,6 +1,7 @@
 # OpenBadgesAjax
 
-Simple testcase for Mozilla Persona and Open Badges. Uses AJAX and php to award and issue badges into Mozilla Open Badges Infrastructure.
+Simple testcase for Mozilla Persona and Open Badges. Uses AJAX (dojo toolkit) and php to award and issue badges into Mozilla Open Badges Infrastructure.
+This is a one page example for logging in with BrowserID and earning a badge issued by you. I might add more sophisticated examples later.
 
 
 ## About
