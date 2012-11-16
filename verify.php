@@ -154,7 +154,7 @@ switch ($_POST['type']) {
 		
 		//Writes JSON file
 		if (fwrite($handle, json_encode($fileData)) === FALSE) {
-			die( '{"status":0, "error":"Cannot write to file ($jsonFilePath). Please check your \$json_dir in gadget_settings.php: "'.$json_dir.'"}' );
+			die( '{"status":0, "error":"Cannot write to file ($jsonFilePath). Please check your \$json_dir in settings.php: "'.$json_dir.'"}' );
 	   }
 		else { 
 			//Sucess message and write badge to badge_records.txt file
@@ -173,7 +173,7 @@ switch ($_POST['type']) {
 			$badge_data .= "\n";
 		
 			if (fwrite($badgeHandle, $badge_data) === FALSE) {
-				die( '{	"status":0, "error":"Cannot write to file ('.$badge_records_file.'). Please check your $root and $badge_records_file in gadget_settings.php. Your JSON file was created but the badge awarding was not recorded."}');
+				die( '{	"status":0, "error":"Cannot write to file ('.$badge_records_file.'). Please check your $root and $badge_records_file in settings.php. Your JSON file was created but the badge awarding was not recorded."}');
 		}
 		
 			fclose($badgeHandle);
