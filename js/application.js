@@ -52,7 +52,7 @@ function( evt,baseFx,fx,dom,css,nl,xhr,query,json,on,ready ){
 					if(data.status>0){
 						//console.log( 'Logged in :' ); console.log(data.mail);
 						dom.byId('content').innerHTML = '<h2 class="orange">This is just a code example. Please provide REAL lessons or questions here...</h2>'+
-														'<h1>1+1 =</h1><input id="question" class="mac" type="text" /><a class="badge answer">Answer</a>';
+														'<h1>1+1 =</h1><input id="question" class="mac" type="text" /><a class="badge answer">answer</a>';
 						query('h2 b.a').addClass('b'); bs.removeClass('a'); css.add(bs[1],'a'); dom.byId('persona').innerHTML = 'Persona';
 						
 						query('.answer').on('click', function() {
