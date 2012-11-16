@@ -23,6 +23,7 @@ https://github.com/Codery/badge-it-gadget-lite
 ## Requirements
 
 These scripts have been tested on a CentOS server running Apache 2.0 and PHP 5.3.2. Version PHP 5 and up should work fine.
+Https is recommended by the BrowserID spec.
 
 ## Instructions
 
