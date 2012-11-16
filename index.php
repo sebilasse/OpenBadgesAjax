@@ -56,7 +56,7 @@ if(!isset($_GET['nosession'])) $_SESSION[RANDOM_ID] = RANDOM;
         <script type="text/javascript">var _csrf = { _a:'<?php echo RANDOM; ?>', _b:'<?php echo openssl_digest($_SERVER['REMOTE_ADDR'], 'sha512'); ?>' };</script>
         <script type="text/javascript" src="<?php print $persona_api; ?>"></script>
         <script type="text/javascript" src="<?php print $open_badges_api; ?>"></script>
-        <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/dojo/1.8/dojo/dojo.js" data-dojo-config="parseOnLoad: true, async: true, isDebug: false"></script>
+        <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/dojo/1.8/dojo/dojo.js" data-dojo-config="parseOnLoad: true, async: true, isDebug: false"></script>
     	<script type="text/javascript" src="./js/application.js"></script>
 	</body>
 </html>
