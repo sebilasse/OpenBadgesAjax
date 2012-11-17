@@ -43,12 +43,6 @@ $issuer_contact = "";
 $issuer_protocol = "http";
 $issuer_host = "yourdomain.com";
 
-/* REQUIRED - Root path 				-CHMOD 775. 
-// This is the root path of where your process-badges directory is hosted. 
-// You SHOULD password protect this directory with something like .htaccess. */
-// NOTE: your server may require the path to have a forward slash */
-$root_path = $_SERVER['DOCUMENT_ROOT']."/OpenBadgesAjax/";
-
 /* REQUIRED - JSON file directory 		-CHMOD 777. 
 // We generate JSON file for each issued badge (per person). 
 // The JSON files need to be in a publicly accessible but not obvious directory. This should start at the document root. 
