@@ -19,7 +19,7 @@ $cookiename = str_replace(".","_",$issuer_host).'_openbadges';
 if($issuer_protocol=='https'){
 	setcookie ($cookiename, RANDOM_ID, time()+3600, "/", ".".$issuer_host,1,1);
 } else {
-	setcookie ($cookiename, RANDOM_ID, time()+3600, "/", ".".$issuer_host);
+	setcookie ($cookiename, RANDOM_ID, time()+3600, "/", ".".$issuer_host,0,1);
 }
 if(!isset($_GET['nosession'])) $_SESSION[RANDOM_ID] = RANDOM;
 ?>
